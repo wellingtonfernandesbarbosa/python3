@@ -1,0 +1,7 @@
+nome = str(input('Digite um nome: '))
+print(nome.title())
+print(nome.upper())
+print(nome.lower())
+print('Número de caracteres: ')
+print((len(nome))-(nome.count(' ')))
+print('O primeiro nome tem {} letras.'.format(nome.find(' ')))

@@ -1,0 +1,8 @@
+print('{}-=-'.format('\033[32m') * 12)
+print('        ANALISADOR DE NOMES')
+print('-=-' * 12)
+nome = input('{}Qual é o seu nome: '.format('\033[33m'))
+print('{}Seu nome em minúsculas: {}{}'.format('\033[36m', '\033[m', nome.lower()))
+print('{}Seu nome em maiúsculas: {}{}'.format('\033[36m', '\033[m', nome.upper()))
+print('{}Seu nome tem {} letras.'.format('\033[36m', (len(nome))-(nome.count(' '))))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))

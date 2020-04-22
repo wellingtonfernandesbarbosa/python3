@@ -1,0 +1,7 @@
+print('{}='.format('\033[35m') * 45)
+print('             Analizando sua frase')
+print('=' * 45)
+frase = str(input('{}Digite uma frase: '.format('\033[33m'))).strip().lower()
+print('{}A letra "a" aparece {} vezes na frase.'.format('\033[34m', frase.count('a')))
+print('A primeira letra "a" apareceu na {}ª posição.'.format(frase.find('a')+1))
+print('A última letra "a" apareceu na {}ª posição.'.format(frase.rfind('a')+1))
